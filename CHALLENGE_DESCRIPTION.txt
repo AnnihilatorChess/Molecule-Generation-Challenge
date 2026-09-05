@@ -1,0 +1,20 @@
+Challenge description (as given by the course)
+
+Task: build a model that generates new, realistic molecules. The model learns from a large
+set of real molecules and should be able to produce new ones that look similarly realistic.
+
+Data: about 1.27 million real molecules, given as SMILES strings (a text format for
+molecules), plus an evaluation script and a sample submission file.
+
+Submission: a text file with at least 10,000 generated SMILES, one per line. Up to 10
+submissions allowed.
+
+Grading:
+- Validity, uniqueness, and novelty must all be at least 90%, or the submission gets no
+  positive grade.
+- The main score is FCD (Frechet ChemNet Distance), which measures how close the generated
+  molecules are to real ones. Lower is better.
+  - FCD under 1.0: grade 1
+  - FCD 1.0 to 2.0: grade 2
+  - FCD 2.0 to 4.0: grade 3
+  - FCD 4.0 to 8.0: grade 4

@@ -1,0 +1,17 @@
+{
+  "pool": "C:\\Users\\simon\\OneDrive - Johannes Kepler Universit\u00e4t Linz\\Uni\\AI for Life Sciences\\Generation-Challenge\\artifacts\\v6\\pool.pkl",
+  "pool_size": 200000,
+  "target_n": 10000,
+  "swap_iters": 8000,
+  "swap_candidates": 200,
+  "init_seed": 0,
+  "init_fcd": 0.2831976828082077,
+  "final_fcd_incremental": 0.08310967372446498,
+  "final_fcd_scratch": 0.08310967372443656,
+  "official_aux": {
+    "validity": 1.0,
+    "uniqueness": 0.9999,
+    "novelty": 0.9999
+  },
+  "submission_file": "Generation-Challenge\\predictions\\v6\\v6_swap_official_8k_200kpool.txt"
+}

@@ -1,0 +1,28 @@
+{
+  "checkpoint": "ckpt_best.pt",
+  "temperature": 1.0,
+  "target_n": 10000,
+  "chunk_size": 15000,
+  "sample_stats": {
+    "rounds": 1,
+    "total_raw": 15000,
+    "total_decoded": 15000,
+    "total_valid_after_canon": 14620,
+    "total_canon_invalid": 380,
+    "pool_size_final": 13606,
+    "n_submitted": 10000,
+    "validity_rate_overall": 0.9746666666666667
+  },
+  "official_aux_metrics": {
+    "n_in_file": 10000,
+    "n_valid": 10000,
+    "n_unique": 10000,
+    "n_novel": 10000,
+    "validity": 1.0,
+    "uniqueness": 1.0,
+    "novelty": 1.0
+  },
+  "aux_threshold": 0.9,
+  "local_fcd": 0.4427397461547997,
+  "submission_file": "Generation-Challenge\\predictions\\v3\\v3_T1.0.txt"
+}
